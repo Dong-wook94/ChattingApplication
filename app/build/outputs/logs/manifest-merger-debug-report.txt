@@ -1,12 +1,14 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\dongwook\Desktop\git repository\ChattingApp\ChattingApplication\app\src\main\AndroidManifest.xml:2:1-28:12
-INJECTED from C:\Users\dongwook\Desktop\git repository\ChattingApp\ChattingApplication\app\src\main\AndroidManifest.xml:2:1-28:12
-INJECTED from C:\Users\dongwook\Desktop\git repository\ChattingApp\ChattingApplication\app\src\main\AndroidManifest.xml:2:1-28:12
-INJECTED from C:\Users\dongwook\Desktop\git repository\ChattingApp\ChattingApplication\app\src\main\AndroidManifest.xml:2:1-28:12
+ADDED from C:\Users\dongwook\Desktop\git repository\ChattingApp\ChattingApplication\app\src\main\AndroidManifest.xml:2:1-29:12
+INJECTED from C:\Users\dongwook\Desktop\git repository\ChattingApp\ChattingApplication\app\src\main\AndroidManifest.xml:2:1-29:12
+INJECTED from C:\Users\dongwook\Desktop\git repository\ChattingApp\ChattingApplication\app\src\main\AndroidManifest.xml:2:1-29:12
+INJECTED from C:\Users\dongwook\Desktop\git repository\ChattingApp\ChattingApplication\app\src\main\AndroidManifest.xml:2:1-29:12
 MERGED from [com.google.android.material:material:1.0.0] C:\Users\dongwook\.gradle\caches\transforms-2\files-2.1\7d62b9d64cbdbc07d7aba60096bbdcd0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.appcompat:appcompat:1.0.0] C:\Users\dongwook\.gradle\caches\transforms-2\files-2.1\95f7498c61669874dff0beb503051ab1\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\dongwook\.gradle\caches\transforms-2\files-2.1\04fc2490107ed8da1e1ca0f4f68cd9eb\AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.1.0] C:\Users\dongwook\.gradle\caches\transforms-2\files-2.1\efdf07810884d87abf7b446c5c9354ea\AndroidManifest.xml:17:1-25:12
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\dongwook\.gradle\caches\transforms-2\files-2.1\636acebc96e1af2c2a8cf9c9112c3846\AndroidManifest.xml:17:1-22:12
 MERGED from [com.google.firebase:firebase-analytics:17.2.0] C:\Users\dongwook\.gradle\caches\transforms-2\files-2.1\6cd0d6764d6a35f398ce2e9acb189931\AndroidManifest.xml:2:1-9:12
 MERGED from [com.google.firebase:firebase-database:19.0.0] C:\Users\dongwook\.gradle\caches\transforms-2\files-2.1\92a5a59245a49d3c6937936ee9d992d0\AndroidManifest.xml:15:1-38:12
 MERGED from [com.google.firebase:firebase-auth-interop:18.0.0] C:\Users\dongwook\.gradle\caches\transforms-2\files-2.1\80ac897bb33c7eb106f00fb2db789441\AndroidManifest.xml:2:1-10:12
@@ -32,6 +34,7 @@ MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\dongwook\.gr
 MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\dongwook\.gradle\caches\transforms-2\files-2.1\a37f49da1630c60d65aa157acdb669c5\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.vectordrawable:vectordrawable:1.0.0] C:\Users\dongwook\.gradle\caches\transforms-2\files-2.1\824cc576066da0993a7982b77d31bf5b\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.transition:transition:1.0.0] C:\Users\dongwook\.gradle\caches\transforms-2\files-2.1\1a1263cab8cc75525069778758146878\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.media:media:1.0.0] C:\Users\dongwook\.gradle\caches\transforms-2\files-2.1\4d2ac5bc977348872dfca41046c1cf8f\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.loader:loader:1.0.0] C:\Users\dongwook\.gradle\caches\transforms-2\files-2.1\a7a8007097267aec4694e8ecd0690877\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\dongwook\.gradle\caches\transforms-2\files-2.1\89a9bfd51a2599b68123d005c82c5739\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\dongwook\.gradle\caches\transforms-2\files-2.1\96f1afec794bfb15a48c92a20fcf6086\AndroidManifest.xml:17:1-22:12
@@ -44,39 +47,43 @@ MERGED from [androidx.core:core:1.0.0] C:\Users\dongwook\.gradle\caches\transfor
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] C:\Users\dongwook\.gradle\caches\transforms-2\files-2.1\366bd31c162ba72e2acb98255b6f366e\AndroidManifest.xml:17:1-25:12
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\dongwook\.gradle\caches\transforms-2\files-2.1\460c2ec77cd4280373c4bc9c01a32d5c\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\dongwook\.gradle\caches\transforms-2\files-2.1\b64b51c2f043620d49de8f34121fd2b6\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] C:\Users\dongwook\.gradle\caches\transforms-2\files-2.1\9e2170656fe8ec562712af4b6e182ce7\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\dongwook\.gradle\caches\transforms-2\files-2.1\5e68ac7c2cf1b118fdfbfc98de6540f2\AndroidManifest.xml:17:1-30:12
+MERGED from [androidx.lifecycle:lifecycle-service:2.1.0] C:\Users\dongwook\.gradle\caches\transforms-2\files-2.1\10e1459348eae4c7eaf006837bff84a3\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] C:\Users\dongwook\.gradle\caches\transforms-2\files-2.1\be9503db2f364226b42b6664e66ac41c\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.1.0] C:\Users\dongwook\.gradle\caches\transforms-2\files-2.1\710e3a7ee32f569f68e32a280ea37d92\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.1.0] C:\Users\dongwook\.gradle\caches\transforms-2\files-2.1\0a3a642e05d0c763edce52c2e5fb4ff3\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\dongwook\.gradle\caches\transforms-2\files-2.1\7208a496376374a08328818be9a192e0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\dongwook\.gradle\caches\transforms-2\files-2.1\d3fb9dc619422c23d135acd488d22080\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\dongwook\.gradle\caches\transforms-2\files-2.1\8e6557de35191d9978c64534b1130d75\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\dongwook\.gradle\caches\transforms-2\files-2.1\f95138bb183bbe436b166a9489035098\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.print:print:1.0.0] C:\Users\dongwook\.gradle\caches\transforms-2\files-2.1\9d5d54dba2618af57ab086e1283a77c2\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] C:\Users\dongwook\.gradle\caches\transforms-2\files-2.1\424394fae4dea9b9e0964c4774163fef\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\dongwook\.gradle\caches\transforms-2\files-2.1\1f0d5cb8d3feebd3e4019eb4152b9c77\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\dongwook\.gradle\caches\transforms-2\files-2.1\93b293fc623d28de40ee075f35a99180\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\dongwook\.gradle\caches\transforms-2\files-2.1\c39e85e2ebe607b6e719bbf2119d5708\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\dongwook\.gradle\caches\transforms-2\files-2.1\1d8e5326368770cf918029f1fc2e3725\AndroidManifest.xml:17:1-22:12
 MERGED from [com.google.firebase:firebase-database-collection:17.0.0] C:\Users\dongwook\.gradle\caches\transforms-2\files-2.1\b9082b7a671c808a4cf838c791c3488d\AndroidManifest.xml:2:1-7:12
-INJECTED from C:\Users\dongwook\Desktop\git repository\ChattingApp\ChattingApplication\app\src\main\AndroidManifest.xml:2:1-28:12
-INJECTED from C:\Users\dongwook\Desktop\git repository\ChattingApp\ChattingApplication\app\src\main\AndroidManifest.xml:2:1-28:12
-INJECTED from C:\Users\dongwook\Desktop\git repository\ChattingApp\ChattingApplication\app\src\main\AndroidManifest.xml:2:1-28:12
+INJECTED from C:\Users\dongwook\Desktop\git repository\ChattingApp\ChattingApplication\app\src\main\AndroidManifest.xml:2:1-29:12
+INJECTED from C:\Users\dongwook\Desktop\git repository\ChattingApp\ChattingApplication\app\src\main\AndroidManifest.xml:2:1-29:12
+INJECTED from C:\Users\dongwook\Desktop\git repository\ChattingApp\ChattingApplication\app\src\main\AndroidManifest.xml:2:1-29:12
 	package
 		ADDED from C:\Users\dongwook\Desktop\git repository\ChattingApp\ChattingApplication\app\src\main\AndroidManifest.xml:3:5-34
 		INJECTED from C:\Users\dongwook\Desktop\git repository\ChattingApp\ChattingApplication\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\dongwook\Desktop\git repository\ChattingApp\ChattingApplication\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from C:\Users\dongwook\Desktop\git repository\ChattingApp\ChattingApplication\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\dongwook\Desktop\git repository\ChattingApp\ChattingApplication\app\src\main\AndroidManifest.xml:2:1-28:12
+		ADDED from C:\Users\dongwook\Desktop\git repository\ChattingApp\ChattingApplication\app\src\main\AndroidManifest.xml:2:1-29:12
 		INJECTED from C:\Users\dongwook\Desktop\git repository\ChattingApp\ChattingApplication\app\src\main\AndroidManifest.xml
 	android:versionCode
 		INJECTED from C:\Users\dongwook\Desktop\git repository\ChattingApp\ChattingApplication\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\dongwook\Desktop\git repository\ChattingApp\ChattingApplication\app\src\main\AndroidManifest.xml:2:1-28:12
+		ADDED from C:\Users\dongwook\Desktop\git repository\ChattingApp\ChattingApplication\app\src\main\AndroidManifest.xml:2:1-29:12
 		INJECTED from C:\Users\dongwook\Desktop\git repository\ChattingApp\ChattingApplication\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from C:\Users\dongwook\Desktop\git repository\ChattingApp\ChattingApplication\app\src\main\AndroidManifest.xml:2:11-69
 application
-ADDED from C:\Users\dongwook\Desktop\git repository\ChattingApp\ChattingApplication\app\src\main\AndroidManifest.xml:5:5-26:19
+ADDED from C:\Users\dongwook\Desktop\git repository\ChattingApp\ChattingApplication\app\src\main\AndroidManifest.xml:5:5-27:19
 MERGED from [com.google.android.material:material:1.0.0] C:\Users\dongwook\.gradle\caches\transforms-2\files-2.1\7d62b9d64cbdbc07d7aba60096bbdcd0\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.0.0] C:\Users\dongwook\.gradle\caches\transforms-2\files-2.1\7d62b9d64cbdbc07d7aba60096bbdcd0\AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\dongwook\.gradle\caches\transforms-2\files-2.1\04fc2490107ed8da1e1ca0f4f68cd9eb\AndroidManifest.xml:9:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\dongwook\.gradle\caches\transforms-2\files-2.1\04fc2490107ed8da1e1ca0f4f68cd9eb\AndroidManifest.xml:9:5-20
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.1.0] C:\Users\dongwook\.gradle\caches\transforms-2\files-2.1\efdf07810884d87abf7b446c5c9354ea\AndroidManifest.xml:22:5-23:19
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.1.0] C:\Users\dongwook\.gradle\caches\transforms-2\files-2.1\efdf07810884d87abf7b446c5c9354ea\AndroidManifest.xml:22:5-23:19
 MERGED from [com.google.firebase:firebase-analytics:17.2.0] C:\Users\dongwook\.gradle\caches\transforms-2\files-2.1\6cd0d6764d6a35f398ce2e9acb189931\AndroidManifest.xml:7:5-20
 MERGED from [com.google.firebase:firebase-analytics:17.2.0] C:\Users\dongwook\.gradle\caches\transforms-2\files-2.1\6cd0d6764d6a35f398ce2e9acb189931\AndroidManifest.xml:7:5-20
 MERGED from [com.google.firebase:firebase-database:19.0.0] C:\Users\dongwook\.gradle\caches\transforms-2\files-2.1\92a5a59245a49d3c6937936ee9d992d0\AndroidManifest.xml:28:5-36:19
@@ -115,6 +122,8 @@ MERGED from [androidx.core:core:1.0.0] C:\Users\dongwook\.gradle\caches\transfor
 MERGED from [androidx.core:core:1.0.0] C:\Users\dongwook\.gradle\caches\transforms-2\files-2.1\cf5bef16b25f83c72d3c0eb7baa398c2\AndroidManifest.xml:22:5-89
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] C:\Users\dongwook\.gradle\caches\transforms-2\files-2.1\366bd31c162ba72e2acb98255b6f366e\AndroidManifest.xml:22:5-23:19
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] C:\Users\dongwook\.gradle\caches\transforms-2\files-2.1\366bd31c162ba72e2acb98255b6f366e\AndroidManifest.xml:22:5-23:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\dongwook\.gradle\caches\transforms-2\files-2.1\5e68ac7c2cf1b118fdfbfc98de6540f2\AndroidManifest.xml:22:5-28:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\dongwook\.gradle\caches\transforms-2\files-2.1\5e68ac7c2cf1b118fdfbfc98de6540f2\AndroidManifest.xml:22:5-28:19
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.0.0] C:\Users\dongwook\.gradle\caches\transforms-2\files-2.1\cf5bef16b25f83c72d3c0eb7baa398c2\AndroidManifest.xml:22:18-86
 	android:supportsRtl
@@ -129,40 +138,36 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] C:\Users\do
 		ADDED from C:\Users\dongwook\Desktop\git repository\ChattingApp\ChattingApplication\app\src\main\AndroidManifest.xml:6:9-35
 	android:theme
 		ADDED from C:\Users\dongwook\Desktop\git repository\ChattingApp\ChattingApplication\app\src\main\AndroidManifest.xml:11:9-40
-activity#com.example.chatapp.ChattingAdapter
-ADDED from C:\Users\dongwook\Desktop\git repository\ChattingApp\ChattingApplication\app\src\main\AndroidManifest.xml:12:9-62
-	android:name
-		ADDED from C:\Users\dongwook\Desktop\git repository\ChattingApp\ChattingApplication\app\src\main\AndroidManifest.xml:12:19-50
-activity#com.example.chatapp.ChatlistItem
-ADDED from C:\Users\dongwook\Desktop\git repository\ChattingApp\ChattingApplication\app\src\main\AndroidManifest.xml:13:9-50
-	android:name
-		ADDED from C:\Users\dongwook\Desktop\git repository\ChattingApp\ChattingApplication\app\src\main\AndroidManifest.xml:13:19-47
-activity#com.example.chatapp.ChatlistAdapter
-ADDED from C:\Users\dongwook\Desktop\git repository\ChattingApp\ChattingApplication\app\src\main\AndroidManifest.xml:14:9-53
-	android:name
-		ADDED from C:\Users\dongwook\Desktop\git repository\ChattingApp\ChattingApplication\app\src\main\AndroidManifest.xml:14:19-50
-activity#com.example.chatapp.ChatActivity
-ADDED from C:\Users\dongwook\Desktop\git repository\ChattingApp\ChattingApplication\app\src\main\AndroidManifest.xml:15:9-50
-	android:name
-		ADDED from C:\Users\dongwook\Desktop\git repository\ChattingApp\ChattingApplication\app\src\main\AndroidManifest.xml:15:19-47
-activity#com.example.chatapp.MainActivity
-ADDED from C:\Users\dongwook\Desktop\git repository\ChattingApp\ChattingApplication\app\src\main\AndroidManifest.xml:16:9-25:20
+activity#com.example.chatapp.Activity.MainActivity
+ADDED from C:\Users\dongwook\Desktop\git repository\ChattingApp\ChattingApplication\app\src\main\AndroidManifest.xml:12:9-21:20
 	android:label
-		ADDED from C:\Users\dongwook\Desktop\git repository\ChattingApp\ChattingApplication\app\src\main\AndroidManifest.xml:18:13-45
+		ADDED from C:\Users\dongwook\Desktop\git repository\ChattingApp\ChattingApplication\app\src\main\AndroidManifest.xml:14:13-57
 	android:theme
-		ADDED from C:\Users\dongwook\Desktop\git repository\ChattingApp\ChattingApplication\app\src\main\AndroidManifest.xml:19:13-56
+		ADDED from C:\Users\dongwook\Desktop\git repository\ChattingApp\ChattingApplication\app\src\main\AndroidManifest.xml:15:13-56
 	android:name
-		ADDED from C:\Users\dongwook\Desktop\git repository\ChattingApp\ChattingApplication\app\src\main\AndroidManifest.xml:17:13-41
+		ADDED from C:\Users\dongwook\Desktop\git repository\ChattingApp\ChattingApplication\app\src\main\AndroidManifest.xml:13:13-50
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\dongwook\Desktop\git repository\ChattingApp\ChattingApplication\app\src\main\AndroidManifest.xml:20:13-24:29
+ADDED from C:\Users\dongwook\Desktop\git repository\ChattingApp\ChattingApplication\app\src\main\AndroidManifest.xml:16:13-20:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\dongwook\Desktop\git repository\ChattingApp\ChattingApplication\app\src\main\AndroidManifest.xml:21:17-69
+ADDED from C:\Users\dongwook\Desktop\git repository\ChattingApp\ChattingApplication\app\src\main\AndroidManifest.xml:17:17-69
 	android:name
-		ADDED from C:\Users\dongwook\Desktop\git repository\ChattingApp\ChattingApplication\app\src\main\AndroidManifest.xml:21:25-66
+		ADDED from C:\Users\dongwook\Desktop\git repository\ChattingApp\ChattingApplication\app\src\main\AndroidManifest.xml:17:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\dongwook\Desktop\git repository\ChattingApp\ChattingApplication\app\src\main\AndroidManifest.xml:23:17-77
+ADDED from C:\Users\dongwook\Desktop\git repository\ChattingApp\ChattingApplication\app\src\main\AndroidManifest.xml:19:17-77
 	android:name
-		ADDED from C:\Users\dongwook\Desktop\git repository\ChattingApp\ChattingApplication\app\src\main\AndroidManifest.xml:23:27-74
+		ADDED from C:\Users\dongwook\Desktop\git repository\ChattingApp\ChattingApplication\app\src\main\AndroidManifest.xml:19:27-74
+activity#com.example.chatapp.Activity.ChatActivity
+ADDED from C:\Users\dongwook\Desktop\git repository\ChattingApp\ChattingApplication\app\src\main\AndroidManifest.xml:22:9-59
+	android:name
+		ADDED from C:\Users\dongwook\Desktop\git repository\ChattingApp\ChattingApplication\app\src\main\AndroidManifest.xml:22:19-56
+activity#com.example.chatapp.Activity.MainActivity2
+ADDED from C:\Users\dongwook\Desktop\git repository\ChattingApp\ChattingApplication\app\src\main\AndroidManifest.xml:23:9-26:68
+	android:label
+		ADDED from C:\Users\dongwook\Desktop\git repository\ChattingApp\ChattingApplication\app\src\main\AndroidManifest.xml:25:13-45
+	android:theme
+		ADDED from C:\Users\dongwook\Desktop\git repository\ChattingApp\ChattingApplication\app\src\main\AndroidManifest.xml:26:13-56
+	android:name
+		ADDED from C:\Users\dongwook\Desktop\git repository\ChattingApp\ChattingApplication\app\src\main\AndroidManifest.xml:24:13-51
 uses-sdk
 INJECTED from C:\Users\dongwook\Desktop\git repository\ChattingApp\ChattingApplication\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\dongwook\Desktop\git repository\ChattingApp\ChattingApplication\app\src\main\AndroidManifest.xml
@@ -173,6 +178,10 @@ MERGED from [androidx.appcompat:appcompat:1.0.0] C:\Users\dongwook\.gradle\cache
 MERGED from [androidx.appcompat:appcompat:1.0.0] C:\Users\dongwook\.gradle\caches\transforms-2\files-2.1\95f7498c61669874dff0beb503051ab1\AndroidManifest.xml:20:5-44
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\dongwook\.gradle\caches\transforms-2\files-2.1\04fc2490107ed8da1e1ca0f4f68cd9eb\AndroidManifest.xml:5:5-7:41
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\dongwook\.gradle\caches\transforms-2\files-2.1\04fc2490107ed8da1e1ca0f4f68cd9eb\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.1.0] C:\Users\dongwook\.gradle\caches\transforms-2\files-2.1\efdf07810884d87abf7b446c5c9354ea\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.1.0] C:\Users\dongwook\.gradle\caches\transforms-2\files-2.1\efdf07810884d87abf7b446c5c9354ea\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\dongwook\.gradle\caches\transforms-2\files-2.1\636acebc96e1af2c2a8cf9c9112c3846\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\dongwook\.gradle\caches\transforms-2\files-2.1\636acebc96e1af2c2a8cf9c9112c3846\AndroidManifest.xml:20:5-44
 MERGED from [com.google.firebase:firebase-analytics:17.2.0] C:\Users\dongwook\.gradle\caches\transforms-2\files-2.1\6cd0d6764d6a35f398ce2e9acb189931\AndroidManifest.xml:5:5-44
 MERGED from [com.google.firebase:firebase-analytics:17.2.0] C:\Users\dongwook\.gradle\caches\transforms-2\files-2.1\6cd0d6764d6a35f398ce2e9acb189931\AndroidManifest.xml:5:5-44
 MERGED from [com.google.firebase:firebase-database:19.0.0] C:\Users\dongwook\.gradle\caches\transforms-2\files-2.1\92a5a59245a49d3c6937936ee9d992d0\AndroidManifest.xml:19:5-21:41
@@ -223,6 +232,8 @@ MERGED from [androidx.vectordrawable:vectordrawable:1.0.0] C:\Users\dongwook\.gr
 MERGED from [androidx.vectordrawable:vectordrawable:1.0.0] C:\Users\dongwook\.gradle\caches\transforms-2\files-2.1\824cc576066da0993a7982b77d31bf5b\AndroidManifest.xml:20:5-44
 MERGED from [androidx.transition:transition:1.0.0] C:\Users\dongwook\.gradle\caches\transforms-2\files-2.1\1a1263cab8cc75525069778758146878\AndroidManifest.xml:20:5-44
 MERGED from [androidx.transition:transition:1.0.0] C:\Users\dongwook\.gradle\caches\transforms-2\files-2.1\1a1263cab8cc75525069778758146878\AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] C:\Users\dongwook\.gradle\caches\transforms-2\files-2.1\4d2ac5bc977348872dfca41046c1cf8f\AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] C:\Users\dongwook\.gradle\caches\transforms-2\files-2.1\4d2ac5bc977348872dfca41046c1cf8f\AndroidManifest.xml:20:5-44
 MERGED from [androidx.loader:loader:1.0.0] C:\Users\dongwook\.gradle\caches\transforms-2\files-2.1\a7a8007097267aec4694e8ecd0690877\AndroidManifest.xml:20:5-44
 MERGED from [androidx.loader:loader:1.0.0] C:\Users\dongwook\.gradle\caches\transforms-2\files-2.1\a7a8007097267aec4694e8ecd0690877\AndroidManifest.xml:20:5-44
 MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\dongwook\.gradle\caches\transforms-2\files-2.1\89a9bfd51a2599b68123d005c82c5739\AndroidManifest.xml:20:5-44
@@ -247,24 +258,28 @@ MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\dongwook\.grad
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\dongwook\.gradle\caches\transforms-2\files-2.1\460c2ec77cd4280373c4bc9c01a32d5c\AndroidManifest.xml:20:5-44
 MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\dongwook\.gradle\caches\transforms-2\files-2.1\b64b51c2f043620d49de8f34121fd2b6\AndroidManifest.xml:20:5-44
 MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\dongwook\.gradle\caches\transforms-2\files-2.1\b64b51c2f043620d49de8f34121fd2b6\AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] C:\Users\dongwook\.gradle\caches\transforms-2\files-2.1\9e2170656fe8ec562712af4b6e182ce7\AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] C:\Users\dongwook\.gradle\caches\transforms-2\files-2.1\9e2170656fe8ec562712af4b6e182ce7\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\dongwook\.gradle\caches\transforms-2\files-2.1\5e68ac7c2cf1b118fdfbfc98de6540f2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\dongwook\.gradle\caches\transforms-2\files-2.1\5e68ac7c2cf1b118fdfbfc98de6540f2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-service:2.1.0] C:\Users\dongwook\.gradle\caches\transforms-2\files-2.1\10e1459348eae4c7eaf006837bff84a3\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-service:2.1.0] C:\Users\dongwook\.gradle\caches\transforms-2\files-2.1\10e1459348eae4c7eaf006837bff84a3\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] C:\Users\dongwook\.gradle\caches\transforms-2\files-2.1\be9503db2f364226b42b6664e66ac41c\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] C:\Users\dongwook\.gradle\caches\transforms-2\files-2.1\be9503db2f364226b42b6664e66ac41c\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.1.0] C:\Users\dongwook\.gradle\caches\transforms-2\files-2.1\710e3a7ee32f569f68e32a280ea37d92\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.1.0] C:\Users\dongwook\.gradle\caches\transforms-2\files-2.1\710e3a7ee32f569f68e32a280ea37d92\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.1.0] C:\Users\dongwook\.gradle\caches\transforms-2\files-2.1\0a3a642e05d0c763edce52c2e5fb4ff3\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.1.0] C:\Users\dongwook\.gradle\caches\transforms-2\files-2.1\0a3a642e05d0c763edce52c2e5fb4ff3\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\dongwook\.gradle\caches\transforms-2\files-2.1\7208a496376374a08328818be9a192e0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\dongwook\.gradle\caches\transforms-2\files-2.1\7208a496376374a08328818be9a192e0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\dongwook\.gradle\caches\transforms-2\files-2.1\d3fb9dc619422c23d135acd488d22080\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\dongwook\.gradle\caches\transforms-2\files-2.1\d3fb9dc619422c23d135acd488d22080\AndroidManifest.xml:20:5-44
 MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\dongwook\.gradle\caches\transforms-2\files-2.1\8e6557de35191d9978c64534b1130d75\AndroidManifest.xml:20:5-44
 MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\dongwook\.gradle\caches\transforms-2\files-2.1\8e6557de35191d9978c64534b1130d75\AndroidManifest.xml:20:5-44
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\dongwook\.gradle\caches\transforms-2\files-2.1\f95138bb183bbe436b166a9489035098\AndroidManifest.xml:20:5-44
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\dongwook\.gradle\caches\transforms-2\files-2.1\f95138bb183bbe436b166a9489035098\AndroidManifest.xml:20:5-44
 MERGED from [androidx.print:print:1.0.0] C:\Users\dongwook\.gradle\caches\transforms-2\files-2.1\9d5d54dba2618af57ab086e1283a77c2\AndroidManifest.xml:20:5-44
 MERGED from [androidx.print:print:1.0.0] C:\Users\dongwook\.gradle\caches\transforms-2\files-2.1\9d5d54dba2618af57ab086e1283a77c2\AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] C:\Users\dongwook\.gradle\caches\transforms-2\files-2.1\424394fae4dea9b9e0964c4774163fef\AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] C:\Users\dongwook\.gradle\caches\transforms-2\files-2.1\424394fae4dea9b9e0964c4774163fef\AndroidManifest.xml:20:5-44
 MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\dongwook\.gradle\caches\transforms-2\files-2.1\1f0d5cb8d3feebd3e4019eb4152b9c77\AndroidManifest.xml:20:5-44
 MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\dongwook\.gradle\caches\transforms-2\files-2.1\1f0d5cb8d3feebd3e4019eb4152b9c77\AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\dongwook\.gradle\caches\transforms-2\files-2.1\93b293fc623d28de40ee075f35a99180\AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\dongwook\.gradle\caches\transforms-2\files-2.1\93b293fc623d28de40ee075f35a99180\AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\dongwook\.gradle\caches\transforms-2\files-2.1\c39e85e2ebe607b6e719bbf2119d5708\AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\dongwook\.gradle\caches\transforms-2\files-2.1\c39e85e2ebe607b6e719bbf2119d5708\AndroidManifest.xml:20:5-44
-MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\dongwook\.gradle\caches\transforms-2\files-2.1\1d8e5326368770cf918029f1fc2e3725\AndroidManifest.xml:20:5-44
-MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\dongwook\.gradle\caches\transforms-2\files-2.1\1d8e5326368770cf918029f1fc2e3725\AndroidManifest.xml:20:5-44
 MERGED from [com.google.firebase:firebase-database-collection:17.0.0] C:\Users\dongwook\.gradle\caches\transforms-2\files-2.1\b9082b7a671c808a4cf838c791c3488d\AndroidManifest.xml:5:5-44
 MERGED from [com.google.firebase:firebase-database-collection:17.0.0] C:\Users\dongwook\.gradle\caches\transforms-2\files-2.1\b9082b7a671c808a4cf838c791c3488d\AndroidManifest.xml:5:5-44
 INJECTED from C:\Users\dongwook\Desktop\git repository\ChattingApp\ChattingApplication\app\src\main\AndroidManifest.xml
@@ -437,3 +452,13 @@ ADDED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\dongw
 		ADDED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\dongwook\.gradle\caches\transforms-2\files-2.1\975e996d5aac16034e862a9cab96eae4\AndroidManifest.xml:25:13-66
 	android:name
 		ADDED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\dongwook\.gradle\caches\transforms-2\files-2.1\975e996d5aac16034e862a9cab96eae4\AndroidManifest.xml:24:13-58
+provider#androidx.lifecycle.ProcessLifecycleOwnerInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\dongwook\.gradle\caches\transforms-2\files-2.1\5e68ac7c2cf1b118fdfbfc98de6540f2\AndroidManifest.xml:23:9-27:43
+	android:authorities
+		ADDED from [androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\dongwook\.gradle\caches\transforms-2\files-2.1\5e68ac7c2cf1b118fdfbfc98de6540f2\AndroidManifest.xml:25:13-69
+	android:multiprocess
+		ADDED from [androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\dongwook\.gradle\caches\transforms-2\files-2.1\5e68ac7c2cf1b118fdfbfc98de6540f2\AndroidManifest.xml:27:13-40
+	android:exported
+		ADDED from [androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\dongwook\.gradle\caches\transforms-2\files-2.1\5e68ac7c2cf1b118fdfbfc98de6540f2\AndroidManifest.xml:26:13-37
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\dongwook\.gradle\caches\transforms-2\files-2.1\5e68ac7c2cf1b118fdfbfc98de6540f2\AndroidManifest.xml:24:13-79
