@@ -1355,7 +1355,6 @@ layout activity_chat
 layout activity_chat_adapter
 layout activity_chat_adapter2
 layout activity_main
-layout activity_main2
 layout chatlist_item
 layout design_bottom_navigation_item
 layout design_bottom_sheet_dialog

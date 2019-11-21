@@ -1812,10 +1812,6 @@
         "source": "C:\\Users\\dongwook\\.gradle\\caches\\transforms-2\\files-2.1\\7d62b9d64cbdbc07d7aba60096bbdcd0\\res\\layout\\design_navigation_item_subheader.xml"
     },
     {
-        "merged": "C:\\Users\\dongwook\\Desktop\\git repository\\ChattingApp\\ChattingApplication\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_main2.xml.flat",
-        "source": "C:\\Users\\dongwook\\Desktop\\git repository\\ChattingApp\\ChattingApplication\\app\\src\\main\\res\\layout\\activity_main2.xml"
-    },
-    {
         "merged": "C:\\Users\\dongwook\\Desktop\\git repository\\ChattingApp\\ChattingApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable_common_google_signin_btn_text_dark_normal.xml.flat",
         "source": "C:\\Users\\dongwook\\.gradle\\caches\\transforms-2\\files-2.1\\5e157a20e0cd593453e12ba02ca59297\\res\\drawable\\common_google_signin_btn_text_dark_normal.xml"
     },
