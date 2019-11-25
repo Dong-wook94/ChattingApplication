@@ -1105,6 +1105,7 @@ id all
 id always
 id async
 id auto
+id autoLogin
 id barrier
 id beginning
 id blocking
@@ -1147,6 +1148,7 @@ id dimensions
 id direct
 id disableHome
 id edit_query
+id emailEditText
 id end
 id end_padder
 id enterAlways
@@ -1169,6 +1171,7 @@ id homeAsUp
 id icon
 id icon_group
 id icon_only
+id idEditText
 id ifRoom
 id image
 id imageView
@@ -1176,6 +1179,8 @@ id info
 id invisible
 id italic
 id item_touch_helper_previous_elevation
+id joinBtn
+id joinButton
 id labeled
 id largeLabel
 id layoutForAlign
@@ -1186,6 +1191,7 @@ id line3
 id listMode
 id listView
 id list_item
+id loginBtn
 id masked
 id media_actions
 id message
@@ -1207,12 +1213,15 @@ id parallax
 id parent
 id parentPanel
 id parent_matrix
+id passwordEditText
 id percent
 id pin
 id proImage
 id progress_circular
 id progress_horizontal
+id pwEditText
 id radio
+id rePwEditText
 id return_btn
 id review_btn
 id right
@@ -1354,6 +1363,8 @@ layout abc_tooltip
 layout activity_chat
 layout activity_chat_adapter
 layout activity_chat_adapter2
+layout activity_join
+layout activity_login
 layout activity_main
 layout chatlist_item
 layout design_bottom_navigation_item

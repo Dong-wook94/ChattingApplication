@@ -4,7 +4,24 @@
             "outputFile": "C:\\Users\\dongwook\\Desktop\\git repository\\ChattingApp\\ChattingApplication\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-eu\\values-eu.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\dongwook\\.gradle\\caches\\transforms-2\\files-2.1\\5e157a20e0cd593453e12ba02ca59297\\res\\values-eu\\values.xml",
+                    "source": "C:\\Users\\dongwook\\.gradle\\caches\\transforms-2\\files-2.1\\cf5bef16b25f83c72d3c0eb7baa398c2\\res\\values-eu\\values-eu.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "48",
+                        "startColumns": "4",
+                        "startOffsets": "5724",
+                        "endColumns": "100",
+                        "endOffsets": "5820"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\dongwook\\.gradle\\caches\\transforms-2\\files-2.1\\6f5c05bb1643590039d75ece43bbd7b5\\res\\values-eu\\values.xml",
                     "from": {
                         "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
                         "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
@@ -21,7 +38,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\dongwook\\.gradle\\caches\\transforms-2\\files-2.1\\975e996d5aac16034e862a9cab96eae4\\res\\values-eu\\values.xml",
+                    "source": "C:\\Users\\dongwook\\.gradle\\caches\\transforms-2\\files-2.1\\0152b013536bc48b30a2973862dc90b8\\res\\values-eu\\values.xml",
                     "from": {
                         "startLines": "4",
                         "startColumns": "0",
@@ -35,23 +52,6 @@
                         "startOffsets": "4033",
                         "endColumns": "200",
                         "endOffsets": "4229"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\dongwook\\.gradle\\caches\\transforms-2\\files-2.1\\cf5bef16b25f83c72d3c0eb7baa398c2\\res\\values-eu\\values-eu.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
-                    },
-                    "to": {
-                        "startLines": "48",
-                        "startColumns": "4",
-                        "startOffsets": "5724",
-                        "endColumns": "100",
-                        "endOffsets": "5820"
                     }
                 },
                 {

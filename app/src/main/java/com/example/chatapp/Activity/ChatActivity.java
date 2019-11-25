@@ -25,8 +25,6 @@ import com.google.firebase.database.FirebaseDatabase;
 import java.util.ArrayList;
 
 public class ChatActivity extends AppCompatActivity {
-
-
     private String CHAT_NAME;
     private String USER_NAME;
 
@@ -97,9 +95,9 @@ public class ChatActivity extends AppCompatActivity {
                 @Override
             public void onChildAdded(DataSnapshot dataSnapshot, String s) {
                     Log.d("datasnapshot","data : "+dataSnapshot);
-                addMessage(dataSnapshot, adapter);
-                adapter.notifyDataSetChanged();
-                Log.e("LOG", "s:"+s);
+                    addMessage(dataSnapshot, adapter);
+                    adapter.notifyDataSetChanged();
+                    Log.e("LOG", "s:"+s);
             }
 
             @Override
@@ -121,8 +119,6 @@ public class ChatActivity extends AppCompatActivity {
             public void onCancelled(@NonNull DatabaseError databaseError) {
 
             }
-
-
         });
     }
 }

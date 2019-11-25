@@ -1,4 +1,7 @@
-#Thu Nov 21 22:50:45 KST 2019
+#Mon Nov 25 21:53:54 KST 2019
 base.0=C\:\\Users\\dongwook\\Desktop\\git repository\\ChattingApp\\ChattingApplication\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\10
+path.1=classes2.dex
+renamed.1=classes2.dex
 path.0=classes.dex
 renamed.0=classes.dex
+base.1=C\:\\Users\\dongwook\\Desktop\\git repository\\ChattingApp\\ChattingApplication\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\10
