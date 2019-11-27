@@ -1192,6 +1192,7 @@ id listMode
 id listView
 id list_item
 id loginBtn
+id logout_btn
 id masked
 id media_actions
 id message
@@ -1305,6 +1306,9 @@ id useLogo
 id user_chat
 id user_edit
 id user_next
+id user_profile_image
+id userid_textview
+id username_textView
 id view_offset_helper
 id view_pager
 id visible
