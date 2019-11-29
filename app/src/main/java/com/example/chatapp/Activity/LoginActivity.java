@@ -7,6 +7,7 @@ import android.app.ProgressDialog;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.CheckBox;
@@ -14,14 +15,21 @@ import android.widget.EditText;
 import android.widget.Toast;
 
 import com.example.chatapp.Data.AppDataInfo;
+import com.example.chatapp.Data.User;
 import com.example.chatapp.R;
 import com.google.android.gms.tasks.OnCompleteListener;
+import com.google.android.gms.tasks.OnFailureListener;
+import com.google.android.gms.tasks.OnSuccessListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 import com.google.firebase.firestore.FirebaseFirestore;
 import com.google.firebase.firestore.FirebaseFirestoreSettings;
+import com.google.firebase.iid.FirebaseInstanceId;
+
+import java.util.HashMap;
+import java.util.Map;
 
 
 public class LoginActivity extends AppCompatActivity implements View.OnClickListener{
@@ -32,13 +40,13 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
 
     private FirebaseAuth mAuth;
     private FirebaseUser user;
+    private FirebaseFirestore db;
 
     private ProgressDialog progressDialog;
     //auto login
     private SharedPreferences auto;
     private CheckBox checkBoxAutoLogin;
-
-    private FirebaseFirestore db;
+    
     private String deviceToken;
     private FirebaseAuth firebaseAuth;
 
@@ -61,6 +69,7 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
         joinBtn.setOnClickListener(this);
 
         db = FirebaseFirestore.getInstance();
+        deviceToken = FirebaseInstanceId.getInstance().getToken();
         FirebaseFirestoreSettings settings = new FirebaseFirestoreSettings.Builder()
 
                 .setTimestampsInSnapshotsEnabled(true)
@@ -126,7 +135,8 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
                             autoLogin.putString(AppDataInfo.Login.userPwd, pw);
                             autoLogin.commit();
 
-                            //updateFCMToken();
+
+                            updateFCMToken();
                             startActivity(new Intent(LoginActivity.this, MainActivity.class));
 
                         } else {
@@ -138,5 +148,22 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
 
                     }
                 });
+    }
+    private void updateFCMToken() {
+        db.collection("users").document(idText.getText().toString())
+                .update("deviceToken",deviceToken)
+                .addOnSuccessListener(new OnSuccessListener<Void>() {
+                    @Override
+                    public void onSuccess(Void aVoid) {
+                        Log.d("firestore", "DocumentSnapshot successfully written!");
+                    }
+                })
+                .addOnFailureListener(new OnFailureListener() {
+                    @Override
+                    public void onFailure(@NonNull Exception e) {
+                        Log.w("firestore", "Error writing document", e);
+                    }
+                });
+
     }
 }

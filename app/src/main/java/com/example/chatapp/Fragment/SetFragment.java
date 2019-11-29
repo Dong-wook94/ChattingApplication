@@ -26,7 +26,7 @@ public class SetFragment extends Fragment {
     // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
     private Button logoutBtn;
     private TextView useridTextView;
-    private SharedPreferences auto;
+    private SharedPreferences user_info;
 
 
     public SetFragment() {
@@ -43,12 +43,12 @@ public class SetFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
 
-        auto = getActivity().getSharedPreferences(AppDataInfo.Login.key, Activity.MODE_PRIVATE);
+        user_info = getActivity().getSharedPreferences(AppDataInfo.Login.key, Activity.MODE_PRIVATE);
         View view = inflater.inflate(R.layout.fragment_set, container, false);
         logoutBtn = view.findViewById(R.id.logout_btn);
         useridTextView = view.findViewById(R.id.userid_textview);
 
-        useridTextView.setText(auto.getString(AppDataInfo.Login.userID,null));
+        useridTextView.setText(user_info.getString(AppDataInfo.Login.userID,null));
         logoutBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -60,12 +60,12 @@ public class SetFragment extends Fragment {
     private void logout() {
         startActivity(new Intent(getActivity(), LoginActivity.class));
 
-        SharedPreferences.Editor editor = auto.edit();
+        SharedPreferences.Editor editor = user_info.edit();
 
         editor.clear();
         editor.commit();
         Toast.makeText(getActivity(), "로그아웃", Toast.LENGTH_SHORT).show();
-        editor = auto.edit();
+        editor = user_info.edit();
         editor.putBoolean("checkbox",false);
         editor.commit();
         getActivity().finish();

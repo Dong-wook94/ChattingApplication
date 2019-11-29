@@ -1098,6 +1098,7 @@ id action_text
 id actions
 id activity_chooser_view_content
 id add
+id add_friends_btn
 id adjust_height
 id adjust_width
 id alertTitle
@@ -1193,6 +1194,7 @@ id listView
 id list_item
 id loginBtn
 id logout_btn
+id lyric_listview
 id masked
 id media_actions
 id message
@@ -1216,6 +1218,7 @@ id parentPanel
 id parent_matrix
 id passwordEditText
 id percent
+id phone_number
 id pin
 id proImage
 id progress_circular
@@ -1309,6 +1312,7 @@ id user_next
 id user_profile_image
 id userid_textview
 id username_textView
+id username_textview
 id view_offset_helper
 id view_pager
 id visible
@@ -1370,6 +1374,7 @@ layout activity_chat_adapter2
 layout activity_join
 layout activity_login
 layout activity_main
+layout adapter_friend
 layout chatlist_item
 layout design_bottom_navigation_item
 layout design_bottom_sheet_dialog

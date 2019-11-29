@@ -11,6 +11,7 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
 
+import com.example.chatapp.Data.User;
 import com.example.chatapp.R;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.OnFailureListener;
@@ -33,6 +34,8 @@ public class JoinActivity extends AppCompatActivity {
     private EditText idEditText;
     private EditText pwEditText;
     private EditText rePwEditText;
+    private EditText phoneText;
+    private EditText userNameText;
     private Button joinButton;
     private String id;
     private String pw;
@@ -48,6 +51,8 @@ public class JoinActivity extends AppCompatActivity {
         idEditText=(EditText)findViewById(R.id.idEditText);
         pwEditText=(EditText)findViewById(R.id.pwEditText);
         rePwEditText=(EditText)findViewById(R.id.rePwEditText);
+        phoneText=(EditText)findViewById(R.id.phone_number);
+        userNameText = (EditText)findViewById(R.id.username_textview);
         firebaseAuth = firebaseAuth.getInstance();
 
         deviceToken = FirebaseInstanceId.getInstance().getToken();
@@ -94,22 +99,7 @@ public class JoinActivity extends AppCompatActivity {
                             // 성공 이후 rdb에 회원정보 upload
                             //databaseReference.addListenerForSingleValueEvent(checkRegister);
                             //myRef.addListenerForSingleValueEvent(checkRegister);
-                            Map<String, String> user_data = new HashMap<>();
-                            user_data.put("deviceToken",deviceToken);
-                            db.collection("users").document(id)
-                                    .set(user_data)
-                                    .addOnSuccessListener(new OnSuccessListener<Void>() {
-                                        @Override
-                                        public void onSuccess(Void aVoid) {
-                                            Log.d("firestore", "DocumentSnapshot successfully written!");
-                                        }
-                                    })
-                                    .addOnFailureListener(new OnFailureListener() {
-                                        @Override
-                                        public void onFailure(@NonNull Exception e) {
-                                            Log.w("firestore", "Error writing document", e);
-                                        }
-                                    });
+                            updatetoFirebase();
                             progressDialog.dismiss();
                             finish();
                             //startActivity(new Intent(JoinActivity.this, LoginActivity.class));
@@ -131,5 +121,24 @@ public class JoinActivity extends AppCompatActivity {
 
                     }
                 });
+    }
+
+    private void updatetoFirebase() {
+        User user_data = new User(idEditText.getText().toString(),userNameText.getText().toString(),deviceToken,phoneText.getText().toString());
+        db.collection("users").document(idEditText.getText().toString())
+                .set(user_data)
+                .addOnSuccessListener(new OnSuccessListener<Void>() {
+                    @Override
+                    public void onSuccess(Void aVoid) {
+                        Log.d("firestore", "DocumentSnapshot successfully written!");
+                    }
+                })
+                .addOnFailureListener(new OnFailureListener() {
+                    @Override
+                    public void onFailure(@NonNull Exception e) {
+                        Log.w("firestore", "Error writing document", e);
+                    }
+                });
+
     }
 }

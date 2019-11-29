@@ -1280,6 +1280,10 @@
         "source": "C:\\Users\\dongwook\\.gradle\\caches\\transforms-2\\files-2.1\\95f7498c61669874dff0beb503051ab1\\res\\drawable-xhdpi-v4\\abc_ic_star_half_black_48dp.png"
     },
     {
+        "merged": "C:\\Users\\dongwook\\Desktop\\git repository\\ChattingApp\\ChattingApplication\\app\\build\\intermediates\\res\\merged\\debug\\layout_adapter_friend.xml.flat",
+        "source": "C:\\Users\\dongwook\\Desktop\\git repository\\ChattingApp\\ChattingApplication\\app\\src\\main\\res\\layout\\adapter_friend.xml"
+    },
+    {
         "merged": "C:\\Users\\dongwook\\Desktop\\git repository\\ChattingApp\\ChattingApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21_avd_hide_password.xml.flat",
         "source": "C:\\Users\\dongwook\\.gradle\\caches\\transforms-2\\files-2.1\\7d62b9d64cbdbc07d7aba60096bbdcd0\\res\\drawable-v21\\avd_hide_password.xml"
     },

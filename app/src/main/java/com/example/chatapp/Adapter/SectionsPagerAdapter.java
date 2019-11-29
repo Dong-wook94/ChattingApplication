@@ -2,7 +2,6 @@ package com.example.chatapp.Adapter;
 
 import android.content.Context;
 import android.os.Bundle;
-import android.util.Log;
 
 import androidx.annotation.Nullable;
 import androidx.annotation.StringRes;
@@ -10,8 +9,8 @@ import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentPagerAdapter;
 
-import com.example.chatapp.Fragment.ChatFragment;
-import com.example.chatapp.Fragment.FriendsFragment;
+import com.example.chatapp.Fragment.ChatListFragment;
+import com.example.chatapp.Fragment.FriendsListFragment;
 import com.example.chatapp.Fragment.SetFragment;
 import com.example.chatapp.R;
 
@@ -34,7 +33,7 @@ public class SectionsPagerAdapter extends FragmentPagerAdapter {
     public Fragment getItem(int position) {
         Fragment fragment;
         if (position == 0) {
-            fragment = new FriendsFragment();
+            fragment = new FriendsListFragment();
             Bundle args = new Bundle();
            // args.putParcelable("USER", me);
            // Log.d("User Friends",me.toString());
@@ -42,7 +41,7 @@ public class SectionsPagerAdapter extends FragmentPagerAdapter {
             return fragment;
         }
         else if(position==1) {
-            fragment = new ChatFragment();
+            fragment = new ChatListFragment();
             Bundle args = new Bundle();
            // args.putParcelable("USER", me);
             //Log.d("User Chat",me.toString());
